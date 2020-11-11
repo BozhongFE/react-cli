@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "bin": {
-    "create-cli": "./bin/react-cli.js"
+    "react-cli": "./bin/react-cli.js"
   },
   "dependencies": {
     "chalk": "^2.4.1",
