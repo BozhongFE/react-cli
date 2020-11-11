@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "bin": {
-    "create-bz-react": "./bin/create-bz-react.js"
+    "create-cli": "./bin/create-cli.js"
   },
   "dependencies": {
     "chalk": "^2.4.1",
