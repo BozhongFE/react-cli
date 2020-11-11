@@ -1,6 +1,6 @@
 {
   "name": "@bz/react-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "react template cli",
   "main": "index.js",
   "directories": {
@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "bin": {
-    "create-cli": "./bin/create-cli.js"
+    "create-cli": "./bin/react-cli.js"
   },
   "dependencies": {
     "chalk": "^2.4.1",
