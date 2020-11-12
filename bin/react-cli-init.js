@@ -139,10 +139,6 @@ async function setInquirer(context) {
       default: false,
     },
   ]);
-  console.log('setInquirer', {
-    ...context,
-    metadata: { ...answers },
-  });
   return {
     ...context,
     metadata: { ...answers },
