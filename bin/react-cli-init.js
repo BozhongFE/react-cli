@@ -140,12 +140,6 @@ async function setInquirer(context) {
       default: false,
     },
     {
-      name: 'redirected',
-      type: 'confirm',
-      message: 'Will be redirected?',
-      default: false,
-    },
-    {
       name: 'source',
       type: 'confirm',
       message: 'Output to source repository?',

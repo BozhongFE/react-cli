@@ -24,7 +24,4 @@ react-cli init [项目名称]
 + Router History Mode
 + Less
 + Redux
-+ Redirected 地址重定向
 + Source 打包到 source 版本库
-
-> Redirected启用时，不使用base标签，而是文件引用写死对应环境文件路径
