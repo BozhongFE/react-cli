@@ -127,9 +127,22 @@ async function setInquirer(context) {
       default: false,
     },
     {
+      when: (answer) => answer.router,
+      name: 'routerHistoryMode',
+      type: 'confirm',
+      message: 'Use Router History Mode?',
+      default: false,
+    },
+    {
       name: 'redux',
       type: 'confirm',
       message: 'Use redux?',
+      default: false,
+    },
+    {
+      name: 'redirected',
+      type: 'confirm',
+      message: 'Will be redirected?',
       default: false,
     },
     {
