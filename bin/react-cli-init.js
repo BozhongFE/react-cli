@@ -18,7 +18,7 @@ program
   .option(
     '-r, --repository [repository]',
     'assign to repository',
-    'BoZhongFE/react-template'
+    '936446507/react-template'
   )
   .parse(process.argv);
 
@@ -141,9 +141,9 @@ async function setInquirer(context) {
     },
     {
       name: 'source',
-      type: 'confirm',
+      type: 'list',
       message: 'Output to source repository?',
-      default: false,
+      choices: ['source', 'poco', 'not use'],
     },
   ]);
   return {
