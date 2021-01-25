@@ -18,7 +18,7 @@ program
   .option(
     '-r, --repository [repository]',
     'assign to repository',
-    '936446507/react-template'
+    'BozhongFE/react-template'
   )
   .parse(process.argv);
 
