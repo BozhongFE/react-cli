@@ -8,7 +8,7 @@
 # 默认最新代码
 npm install -g https://github.com/BozhongFE/react-cli
 # tag 形式安装
-npm install -g https://github.com/BozhongFE/react-cli/#v1.1.0
+npm install -g https://github.com/BozhongFE/react-cli/#v1.2.0
 react-cli <command> [options]
 ```
 
@@ -21,7 +21,7 @@ react-cli init [项目名称]
 ## 支持类型
 
 + Router
-+ Router History Mode(v1.1.0)
++ Router History Mode
 + Less
 + Redux
 + Source 打包到 source 版本库 (选项 source, poco, not use)
